@@ -13,11 +13,11 @@ void Reservacion::setCodigo(int codigo) {
 }
 
 int Reservacion::getCantidadPErsonas() const {
-    return cantidadPErsonas;
+    return cantidadPersonas;
 }
 
-void Reservacion::setCantidadPErsonas(int cantidadPErsonas) {
-    Reservacion::cantidadPErsonas = cantidadPErsonas;
+void Reservacion::setCantidadPersonas(int cantidadPersonas) {
+    Reservacion::cantidadPersonas = cantidadPersonas;
 }
 
 time_t Reservacion::getFechaIngreso() const {

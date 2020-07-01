@@ -14,7 +14,7 @@ using namespace std;
 class Reservacion {
     Habitacion habitacion;
     int codigo;
-    int cantidadPErsonas;
+    int cantidadPersonas;
     time_t fechaIngreso;
     time_t fechaSalida;
 public:
@@ -28,7 +28,7 @@ public:
 
     int getCantidadPErsonas() const;
 
-    void setCantidadPErsonas(int cantidadPErsonas);
+    void setCantidadPersonas(int cantidadPersonas);
 
     time_t getFechaIngreso() const;
 
