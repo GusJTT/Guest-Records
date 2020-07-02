@@ -13,12 +13,15 @@ int main() {
         cin >> op;
         switch(op) {
             case 1:
+                system("cls");
                 agregarReservacion(reservaciones,cant);
                 break;
             case 2:
+                system("cls");
                 verReservaciones(reservaciones);
                 break;
             case 3:
+                system("cls");
                 buscarReservacion(reservaciones, "");
                 break;
             case 4:
