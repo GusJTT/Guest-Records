@@ -22,7 +22,7 @@ int main() {
                 break;
             case 3:
                 system("cls");
-                buscarReservacion(reservaciones, "");
+                buscarReservacion(reservaciones, cant);
                 break;
             case 4:
                 break;

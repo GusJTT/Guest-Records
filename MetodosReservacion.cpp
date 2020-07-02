@@ -51,8 +51,26 @@ static void verReservaciones(Reservacion r[50], int cant){
         cout << "-------------------------" << endl;
     }
 }
-static void buscarReservacion(Reservacion r[50], string busqueda){
-    string aux;
-    cout << "Buscar Reservaciones" << endl;
+static void buscarReservacion(Reservacion r[50], int cant){
+    int aux;
+    bool enc = false;
+    cout << "->Buscar Reservaciones" << endl;
+    cout << "  Ingrese el codigo a buscar: ";
     cin >> aux;
+    for (int i = 0; i < cant; i++){
+        if(r[i].getCodigo() == aux){
+            enc = true;
+            cout << "-------------------------" << endl;
+            cout << "Codigo: " << r[i].getCodigo() << endl;
+            cout << "Nº habitacion: " << r[i].getHabitacion().getNumHabitacion() << endl;
+            cout << "Cantidad de personas: " << r[i].getCantidadPErsonas() << endl;
+            cout << "Fecha de ingreso: " << r[i].getFechaIngreso() << endl;
+            cout << "Fecha de salida: " << r[i].getFechaSalida() << endl;
+            cout << "-------------------------" << endl;
+            break;
+        }
+    }
+    if(enc == false){
+        cout << "No encontrado" << endl;
+    }
 }
