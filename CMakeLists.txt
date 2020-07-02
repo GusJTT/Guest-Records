@@ -4,7 +4,7 @@ project(PS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PS main.cpp
+add_executable(PS ControlReservacion.cpp
         Servicio/Servicio.cpp Servicio/Servicio.h
         Hotel/Hotel.cpp Hotel/Hotel.h
         Usuario/Usuario.cpp Usuario/Usuario.h
@@ -16,4 +16,4 @@ add_executable(PS main.cpp
         ReciboHospedaje/ReciboHospedaje.cpp ReciboHospedaje/ReciboHospedaje.h
         AdquirirServicio/AdquirirServicio.cpp AdquirirServicio/AdquirirServicio.h
         Habitacion/Habitacion.cpp Habitacion/Habitacion.h
-        ControlReservacion.cpp)
+        MetodosReservacion.cpp)
