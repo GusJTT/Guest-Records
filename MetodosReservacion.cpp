@@ -139,40 +139,42 @@ static void agregarBD(int idReservacion, int idHabitacion, int idCliente, int es
     }
 }
 static void consultaBD(){
-    try{
+    try {
         cout << "aqui" << endl;
-#define STRING_SIZE 50
-        MYSQL_TIME  ts;
-        int int_data;
-        unsigned long str_length;
         MYSQL* conn;
         MYSQL_ROW row;
-        MYSQL_BIND bind[5];
         MYSQL_RES* resultado;
         conn = mysql_init(nullptr);
         conn = mysql_real_connect(conn, "sql10.freemysqlhosting.net", "sql10351188", "FCWP53Cz47", "sql10351188", 3306,
                                   nullptr, 0);
         if (conn) {
-            MYSQL_STMT* stmt;
-            const char* sql = "INSERT INTO `reservacion`(`id_reservacion`, `id_habitacion`, `id_cliente`, `fecha`, `estado`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5])";
+            const char* sql = "SELECT * FROM `reservacion`";
             int qstate = mysql_query(conn , sql);
             cout << qstate << endl;
-            if(qstate != 0){
-                cout << "Aqui";
-                stmt = mysql_stmt_init(conn);
+            if(qstate == 0){
+                cout << "Aqui" << endl;
                 resultado = mysql_store_result(conn);
+                cout << "Aqui" << endl;
                 unsigned long filas = mysql_num_rows(resultado);
+                cout << "Aqui" << endl;
+                cout << (unsigned long)filas << endl;
+                if (filas == 0) {
+                    cout << "No hay datos" << endl;
+                }
                 for (int i = 0; i < filas; i++){
+                    cout << "aqui" << endl;
                     row = mysql_fetch_row(resultado);
                     cout << row[0] << " " << row[1] <<" "<< row[2] <<" "<< row[3] << endl;
                 }
                 mysql_free_result(resultado);
             }
             mysql_close(conn);
-        } else {
+        }
+        else {
             cout << "Error: no se pudo conectar" << endl;
         }
-    } catch (exception &e) {
+    }
+    catch (exception& e) {
         cout << e.what();
     }
 }
