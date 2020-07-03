@@ -1,0 +1,152 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/errmsg.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/field_types.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_command.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_compress.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_list.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+sys/types.h
+-
+windows.h
+-
+winsock2.h
+-
+field_types.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/field_types.h
+my_list.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_list.h
+mysql_com.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_com.h
+mysql/client_plugin.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/client_plugin.h
+mysql_version.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_version.h
+mysql_time.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_time.h
+errmsg.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/errmsg.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/client_plugin.h
+stdarg.h
+-
+stdlib.h
+-
+plugin_auth_common.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/plugin_auth_common.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/plugin_auth_common.h
+windows.h
+-
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/udf_registration_types.h
+stdbool.h
+-
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_com.h
+stdbool.h
+-
+stdint.h
+-
+my_command.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_command.h
+my_compress.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_compress.h
+my_io.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_io.h
+mysql/components/services/my_io_bits.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/components/services/my_io_bits.h
+stdbool.h
+-
+mysql/udf_registration_types.h
+-
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_time.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_version.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/string
+../Turno/Turno.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Turno/Turno.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/AdquirirServicio/AdquirirServicio.h
+../Servicio/Servicio.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/string
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ControlReservacion.cpp
+iostream
+-
+MetodosReservacion.cpp
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/MetodosReservacion.cpp
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/string
+../TipoHabitacion/TipoHabitacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h
+../ReciboHospedaje/ReciboHospedaje.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/ReciboHospedaje.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/MetodosReservacion.cpp
+iostream
+-
+mysql.h
+-
+Reservacion/Reservacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.h
+TipoHabitacion/TipoHabitacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h
+Habitacion/Habitacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/ReciboHospedaje.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/string
+../Cliente/Cliente.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.h
+../Administrador/Administrador.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
+../AdquirirServicio/AdquirirServicio.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/AdquirirServicio/AdquirirServicio.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/string
+../Habitacion/Habitacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/string
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/string
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Turno/Turno.h
+ctime
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Turno/ctime
+

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PS">
+				<Option output="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ejecutable/PS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ejecutable"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Program Files/MySQL/Connector C++ 8.0/include"/>
+					<Add directory="C:/Program Files/MySQL/MySQL Server 8.0/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 PS"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PS/fast">
+				<Option output="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ejecutable/PS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ejecutable"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Program Files/MySQL/Connector C++ 8.0/include"/>
+					<Add directory="C:/Program Files/MySQL/MySQL Server 8.0/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 PS/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/AdquirirServicio/AdquirirServicio.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/AdquirirServicio/AdquirirServicio.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ControlReservacion.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/Hotel.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/Hotel.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/MetodosReservacion.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/ReciboHospedaje.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/ReciboHospedaje.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Turno/Turno.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Turno/Turno.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Usuario/Usuario.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Usuario/Usuario.h">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

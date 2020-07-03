@@ -2,8 +2,12 @@
 #include "MetodosReservacion.cpp"
 int main() {
     int cant = 0, op = 0;
+    cout << "Aqui" << endl;
+    cout << "Aqui" << endl;
     Reservacion reservaciones[50];
-    while(op != 4) {
+    cout << "Aqui" << endl;
+    agregarBD(1,1,1,1);
+    /*while(op != 4) {
         cout << "--Administracion de reservaciones--" << endl;
         cout << "  Seleccione una opcion:" << endl;
         cout << "  (1)Añadir reservacion" << endl;
@@ -30,6 +34,6 @@ int main() {
                 cout << "Opcion incorrecta: Ingrese una valida o 4 para volver" << endl;
                 break;
         }
-    }
+    }*/
     return 0;
 }
