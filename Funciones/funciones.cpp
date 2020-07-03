@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 #include <afxres.h>
 #include <conio.h>
 #define ENTER 13
@@ -6,10 +7,11 @@
 #include "../Administrador/Administrador.h"
 #include "../Conexion/Conexion.h"
 
-
 using namespace std;
 bool iniciarSesion(Administrador& admin,Conexion bd_conexion);
 void menu_principal(Administrador& admin,Conexion bd_conexion);
+void gotoxy(int x,int y);
+void imprimir_rectangle(char a);
 
 inline bool iniciarSesion(Administrador& admin,Conexion bd_conexion) {
     string user;
@@ -132,3 +134,28 @@ inline void menu_principal(Administrador& admin,Conexion bd_conexion) {
     }while(op!='7');
 }
 
+inline void gotoxy(int x,int y){
+    HANDLE hcon;
+    hcon =GetStdHandle(STD_OUTPUT_HANDLE);
+    COORD dwPos;
+    dwPos.X=x;
+    dwPos.Y=y;
+    SetConsoleCursorPosition(hcon,dwPos);
+}
+
+inline void imprimir_rectangle(char a){
+        putchar ('=');
+        for(int x=1; x<=79; x++){
+            gotoxy (x,0);
+            putchar ('=');
+            gotoxy (x,24);
+            putchar ('=');
+        }
+
+        for(int y=1; y<=24; y++){
+            gotoxy (0,y);
+            putchar ('=');
+            gotoxy (79,y);
+            putchar ('=');
+        }
+}
