@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="PS" targetName="PS" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71e490c2-15a4-4236-8c97-ee0fb7127198" name="Default Changelist" comment="cdsp-3-03-07-2020" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e75WoeW9RPQ7sh78gbaY51LAl5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PS" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PS" TARGET_NAME="PS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PS" RUN_TARGET_NAME="PS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71e490c2-15a4-4236-8c97-ee0fb7127198" name="Default Changelist" comment="" />
+      <created>1593659824574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593659824574</updated>
+      <workItem from="1593659826510" duration="1689000" />
+      <workItem from="1593661564522" duration="1752000" />
+      <workItem from="1593663768211" duration="1962000" />
+      <workItem from="1593727934649" duration="8320000" />
+      <workItem from="1593738941764" duration="10556000" />
+      <workItem from="1593751590422" duration="7811000" />
+      <workItem from="1593782505563" duration="6211000" />
+      <workItem from="1593804316589" duration="8021000" />
+    </task>
+    <task id="LOCAL-00001" summary="1-07-20">
+      <created>1593661405648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593661405648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1-07-20">
+      <created>1593782574273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593782574273</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cdsp-2-03-07-2020">
+      <created>1593789376052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593789376052</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cdsp-3-03-07-2020">
+      <created>1593812353722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593812353722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1-07-20" />
+    <MESSAGE value="cdsp-2-03-07-2020" />
+    <MESSAGE value="cdsp-3-03-07-2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="cdsp-3-03-07-2020" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="246" y="42" width="983" height="667" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593662121685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="246" y="42" width="983" height="667" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593662121685" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1593751990394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593751990394" />
+    <state x="532" y="146" key="FileChooserDialogImpl" timestamp="1593808743681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="532" y="146" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593808743681" />
+    <state width="1323" height="94" key="GridCell.Tab.0.bottom" timestamp="1593812540845">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="94" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593812540845" />
+    <state width="1323" height="94" key="GridCell.Tab.0.center" timestamp="1593812540845">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="94" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593812540845" />
+    <state width="1323" height="94" key="GridCell.Tab.0.left" timestamp="1593812540844">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="94" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593812540844" />
+    <state width="1323" height="94" key="GridCell.Tab.0.right" timestamp="1593812540845">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="94" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593812540845" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1593812538959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593812538959" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1593812538959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593812538959" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1593812538959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593812538959" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1593812538959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593812538959" />
+    <state x="478" y="66" key="RollbackChangesDialog" timestamp="1593783476253">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="478" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593783476253" />
+    <state x="267" y="17" key="SettingsEditor" timestamp="1593728031653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="267" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593728031653" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1593812470724">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593812470724" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593660335636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1593660335636" />
+  </component>
+</project>
