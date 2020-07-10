@@ -1,13 +1,12 @@
 #include "Conexion.h"
 #include <string>
 #define convertToString(x) #x
+using namespace std;
 
 MYSQL mysql,*connection;
 MYSQL_RES *result;
 MYSQL_ROW row;
 int query_state;
-typedef unsigned char byte;
-using namespace std;
 
 Conexion::Conexion() {
     iniciarConexion();
