@@ -126,3 +126,46 @@ void Conexion::agregarReservacion(string idReservacion, string idHabitacion, str
     }
     mysql_close(conn);
 }
+
+void Conexion::buscarReservacion(string id){
+    try {
+        MYSQL* conn;
+        MYSQL_ROW row;
+        MYSQL_RES* resultado;
+        conn = mysql_init(nullptr);
+        conn = mysql_real_connect(conn,  ip, usr, pass, db, 3306,
+                                  nullptr, 0);
+        if (conn) {
+            string sql = "SELECT * FROM `reservacion` WHERE id_reservacion = " + id;
+            int qstate = mysql_query(conn , sql.c_str());
+            cout << qstate << endl;
+            if(qstate == 0){
+                cout << "aqui" << endl;
+                resultado = mysql_store_result(conn);
+                unsigned long filas = mysql_num_rows(resultado);
+                cout << (unsigned long)filas << endl;
+                if (filas == 0) {
+                    cout << "No hay datos" << endl;
+                }
+                for (int i = 0; i < filas; i++){
+                    row = mysql_fetch_row(resultado);
+                    cout << "------------------------------------" << row[0] << endl;
+                    cout << "ID reservacion: " << row[0] << endl;
+                    cout << "Numero habitacion: " << row[1] <<endl;
+                    cout << "ID Cliente: " << row[2] << endl;
+                    cout << "Fecha: " << row[3] << endl;
+                    cout << "Estado registro: " << row[4] << endl;
+                    cout << "------------------------------------" << row[0] << endl;
+                }
+                mysql_free_result(resultado);
+            }
+            mysql_close(conn);
+        }
+        else {
+            cout << "Error: no se pudo conectar" << endl;
+        }
+    }
+    catch (exception& e) {
+        cout << e.what();
+    }
+}

@@ -79,7 +79,11 @@ void Reservacion::menuReservacion() {
                 break;
             case 3:
                 system("cls");
+                cout << "-Buscar reservacion-" << endl;
+                cout << "  Ingrese ID de la reservacion:";
+                cin >> aux;
                 //buscarReservacion(reservaciones, cant);
+                cx.buscarReservacion(aux);
                 break;
             case 4:
                 break;
