@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Program Files/MySQL/MySQL Server 8.0/include/binary_log_types.h
-
 C:/Program Files/MySQL/MySQL Server 8.0/include/errmsg.h
 
+C:/Program Files/MySQL/MySQL Server 8.0/include/field_types.h
+
 C:/Program Files/MySQL/MySQL Server 8.0/include/my_command.h
+
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_compress.h
 
 C:/Program Files/MySQL/MySQL Server 8.0/include/my_list.h
 
@@ -19,14 +21,16 @@ stdbool.h
 -
 stddef.h
 -
+stdint.h
+-
 sys/types.h
 -
 windows.h
 -
 winsock2.h
 -
-binary_log_types.h
-C:/Program Files/MySQL/MySQL Server 8.0/include/binary_log_types.h
+field_types.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/field_types.h
 my_list.h
 C:/Program Files/MySQL/MySQL Server 8.0/include/my_list.h
 mysql_com.h
@@ -59,10 +63,16 @@ stdbool.h
 C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_com.h
 stdbool.h
 -
+stdint.h
+-
 my_command.h
 C:/Program Files/MySQL/MySQL Server 8.0/include/my_command.h
+my_compress.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/my_compress.h
 my_io.h
 C:/Program Files/MySQL/MySQL Server 8.0/include/my_io.h
+mysql/components/services/my_io_bits.h
+C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/components/services/my_io_bits.h
 stdbool.h
 -
 mysql/udf_registration_types.h
@@ -72,51 +82,27 @@ C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_time.h
 
 C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_version.h
 
-C:/Users/Usuario/CLionProjects/Guest-Record/Administrador/Administrador.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
 string
-C:/Users/Usuario/CLionProjects/Guest-Record/Administrador/string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/string
 
-C:/Users/Usuario/CLionProjects/Guest-Record/Conexion/Conexion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.cpp
+Conexion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
+string
+-
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
 mysql.h
 -
 iostream
 -
 ../Hotel/Hotel.h
-C:/Users/Usuario/CLionProjects/Guest-Record/Hotel/Hotel.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/Hotel.h
 ../Administrador/Administrador.h
-C:/Users/Usuario/CLionProjects/Guest-Record/Administrador/Administrador.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
 
-C:/Users/Usuario/CLionProjects/Guest-Record/Funciones/funciones.cpp
-iostream
--
-windows.h
--
-afxres.h
--
-conio.h
--
-../Administrador/Administrador.h
-C:/Users/Usuario/CLionProjects/Guest-Record/Administrador/Administrador.h
-../Conexion/Conexion.h
-C:/Users/Usuario/CLionProjects/Guest-Record/Conexion/Conexion.h
-
-C:/Users/Usuario/CLionProjects/Guest-Record/Hotel/Hotel.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/Hotel.h
 string
-C:/Users/Usuario/CLionProjects/Guest-Record/Hotel/string
-
-C:/Users/Usuario/CLionProjects/Guest-Record/main.cpp
-iostream
--
-stdio.h
--
-conio.h
--
-Funciones/funciones.cpp
-C:/Users/Usuario/CLionProjects/Guest-Record/Funciones/funciones.cpp
-Conexion/Conexion.h
-C:/Users/Usuario/CLionProjects/Guest-Record/Conexion/Conexion.h
-Administrador/Administrador.h
-C:/Users/Usuario/CLionProjects/Guest-Record/Administrador/Administrador.h
-clocale
--
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/string
 

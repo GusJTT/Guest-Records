@@ -19,6 +19,7 @@ class Conexion {
         Conexion();
         void iniciarConexion();
         void finalizarConexion();
+        void consultaBD();
         Hotel getDatosHotel(int id);
         bool inicioSesion(Administrador &admin,string username,string contra);
 };

@@ -1,3 +1,3 @@
-C:/Users/Usuario/CLionProjects/Guest-Record/cmake-build-debug/CMakeFiles/PS.dir
-C:/Users/Usuario/CLionProjects/Guest-Record/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Usuario/CLionProjects/Guest-Record/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/rebuild_cache.dir

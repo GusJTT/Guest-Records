@@ -4,6 +4,7 @@
 #include "Funciones/funciones.cpp"
 #include "Conexion/Conexion.h"
 #include "Administrador/Administrador.h"
+#include "Reservacion/Reservacion.h"
 #include <clocale>
 
 using namespace std;
@@ -21,6 +22,7 @@ int main() {
     Conexion bd_conexion;
     Hotel hotel=bd_conexion.getDatosHotel(1);
     Administrador administrador;
+    Reservacion r;
     char op;
     do {
         system("mode con: cols=80 lines=25");
