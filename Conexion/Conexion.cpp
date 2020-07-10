@@ -81,7 +81,13 @@ void Conexion::consultaReservaciones(){
                 }
                 for (int i = 0; i < filas; i++){
                     row = mysql_fetch_row(resultado);
-                    cout << row[0] << " " << row[1] <<" "<< row[2] <<" "<< row[3] << endl;
+                    cout << "------------------------------------" << row[0] << endl;
+                    cout << "ID reservacion: " << row[0] << endl;
+                    cout << "Numero habitacion: " << row[1] <<endl;
+                    cout << "ID Cliente: " << row[2] << endl;
+                    cout << "Fecha: " << row[3] << endl;
+                    cout << "Estado registro: " << row[4] << endl;
+                    cout << "------------------------------------" << row[0] << endl;
                 }
                 mysql_free_result(resultado);
             }
