@@ -23,6 +23,8 @@ int main() {
     Hotel hotel=bd_conexion.getDatosHotel(1);
     Administrador administrador;
     Reservacion r;
+    cout << "aqui" << endl;
+    r.menuReservacion();
     char op;
     do {
         system("mode con: cols=80 lines=25");

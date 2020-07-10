@@ -43,7 +43,6 @@ public:
     void setHabitacion(const Habitacion &habitacion);
 
     void menuReservacion();
-
 };
 
 

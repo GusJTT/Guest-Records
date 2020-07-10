@@ -60,13 +60,13 @@ bool Conexion::inicioSesion(Administrador &admin, string username, string contra
     return false;
 }
 
-void Conexion::consultaBD(){
+void Conexion::consultaReservaciones(){
     try {
         MYSQL* conn;
         MYSQL_ROW row;
         MYSQL_RES* resultado;
         conn = mysql_init(nullptr);
-        conn = mysql_real_connect(conn, "sql10.freemysqlhosting.net", "sql10352889", "ug7jc4mGXp", "sql10352889", 3306,
+        conn = mysql_real_connect(conn,  ip, usr, pass, db, 3306,
                                   nullptr, 0);
         if (conn) {
             const char* sql = "SELECT * FROM `reservacion`";
@@ -96,3 +96,27 @@ void Conexion::consultaBD(){
     }
 }
 
+void Conexion::agregarReservacion(string idReservacion, string idHabitacion, string idCliente, string fecha){
+
+    MYSQL* conn, mysql;
+
+    int query_state;
+    const char* server = "sql10.freemysqlhosting.net";
+    const char* user = "sql10352889";
+    const char* password = "ug7jc4mGXp";
+    const char* database = "sql10352889";
+    mysql_init(&mysql);
+    conn = mysql_real_connect(&mysql, server, user, password, database, 0, 0, 0);
+    if (conn == NULL){
+        cout << mysql_error(&mysql) << endl << endl;
+    }
+    string est = "1";
+    string sql = "INSERT INTO `reservacion`(`id_reservacion`, `id_habitacion`, `id_cliente`, `fecha`, `estado`) VALUES ("+ idReservacion +","+idHabitacion+","+idCliente+",'"+fecha+"',"+est+")";
+    query_state = mysql_query(conn, sql.c_str());
+    if (query_state != 0){
+        cout << mysql_error(conn) << endl << endl;
+    } else {
+        cout << "Agregado exitosamente" << endl;
+    }
+    mysql_close(conn);
+}

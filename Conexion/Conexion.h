@@ -11,15 +11,16 @@ class Conexion {
 
     private:
         char * ip = (char*)"sql10.freemysqlhosting.net";
-        char * usr = (char*)"sql10351188";
-        char * pass = (char*)"FCWP53Cz47";
-        char * db = (char*)"sql10351188";
+        char * usr = (char*)"sql10352889";
+        char * pass = (char*)"ug7jc4mGXp";
+        char * db = (char*)"sql10352889";
 
     public:
         Conexion();
         void iniciarConexion();
         void finalizarConexion();
-        void consultaBD();
+        void consultaReservaciones();
+        void agregarReservacion(string idReservacion, string idHabitacion, string idCliente, string fecha);
         Hotel getDatosHotel(int id);
         bool inicioSesion(Administrador &admin,string username,string contra);
 };
