@@ -98,7 +98,17 @@ void Reservacion::menuReservacion() {
                 cout << " (3)Volver" << endl;
                 cin >> op;
                 if(op == 1){
-
+                    cout << "  Ingrese los nuevos datos" << endl;
+                    cout << "   Lista de habitaciones" << endl;
+                    h.consultaHabitaciones();
+                    cout << "   Ingrese el numero de la habitacion: ";
+                    cin >> aux1;
+                    cout << "   Lista de clientes" << endl;
+                    cl.consultaNombres();
+                    cout << "   Ingrese ID del cliente: ";
+                    cin >> aux2;
+                    cout << "   Ingrese fecha (AAAA-MM-DD HH:MM:SS): ";
+                    cx.modificarReservacion(aux,aux1,aux2,aux3);
                 }else if(op == 2){
 
                 }
