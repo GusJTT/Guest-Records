@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/Cliente/Cliente.cpp.obj"
   "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/Conexion/Conexion.cpp.obj"
   "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion2.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/Conexion/Conexion2.cpp.obj"
   "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Funciones/funciones.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/Funciones/funciones.cpp.obj"

@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.cpp">
+			<Option target="PS"/>
+		</Unit>
+		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.h">
+			<Option target="PS"/>
+		</Unit>
 		<Unit filename="C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.cpp">
 			<Option target="PS"/>
 		</Unit>

@@ -124,6 +124,33 @@ PS\fast:
 	$(MAKE) -f CMakeFiles\PS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PS.dir\build
 .PHONY : PS\fast
 
+Cliente\Cliente.obj: Cliente\Cliente.cpp.obj
+
+.PHONY : Cliente\Cliente.obj
+
+# target to build an object file
+Cliente\Cliente.cpp.obj:
+	$(MAKE) -f CMakeFiles\PS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PS.dir\Cliente\Cliente.cpp.obj
+.PHONY : Cliente\Cliente.cpp.obj
+
+Cliente\Cliente.i: Cliente\Cliente.cpp.i
+
+.PHONY : Cliente\Cliente.i
+
+# target to preprocess a source file
+Cliente\Cliente.cpp.i:
+	$(MAKE) -f CMakeFiles\PS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PS.dir\Cliente\Cliente.cpp.i
+.PHONY : Cliente\Cliente.cpp.i
+
+Cliente\Cliente.s: Cliente\Cliente.cpp.s
+
+.PHONY : Cliente\Cliente.s
+
+# target to generate assembly for a file
+Cliente\Cliente.cpp.s:
+	$(MAKE) -f CMakeFiles\PS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PS.dir\Cliente\Cliente.cpp.s
+.PHONY : Cliente\Cliente.cpp.s
+
 Conexion\Conexion.obj: Conexion\Conexion.cpp.obj
 
 .PHONY : Conexion\Conexion.obj
@@ -322,6 +349,9 @@ help:
 	@echo ... PS
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Cliente/Cliente.obj
+	@echo ... Cliente/Cliente.i
+	@echo ... Cliente/Cliente.s
 	@echo ... Conexion/Conexion.obj
 	@echo ... Conexion/Conexion.i
 	@echo ... Conexion/Conexion.s

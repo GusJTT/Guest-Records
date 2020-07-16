@@ -69,25 +69,24 @@ void Conexion::consultaReservaciones(){
         conn = mysql_real_connect(conn,  ip, usr, pass, db, 3306,
                                   nullptr, 0);
         if (conn) {
-            const char* sql = "SELECT * FROM `reservacion`";
+            const char* sql = "SELECT reservacion.id_reservacion, reservacion.id_habitacion, cliente.nombre, cliente.apellidos, reservacion.fecha, reservacion.estado "
+                              "FROM reservacion INNER JOIN cliente ON reservacion.id_cliente = cliente.id_cliente";
             int qstate = mysql_query(conn , sql);
-            cout << qstate << endl;
             if(qstate == 0){
                 resultado = mysql_store_result(conn);
                 unsigned long filas = mysql_num_rows(resultado);
-                cout << (unsigned long)filas << endl;
                 if (filas == 0) {
                     cout << "No hay datos" << endl;
                 }
                 for (int i = 0; i < filas; i++){
                     row = mysql_fetch_row(resultado);
-                    cout << "------------------------------------" << row[0] << endl;
+                    cout << "------------------------------------" << endl;
                     cout << "ID reservacion: " << row[0] << endl;
                     cout << "Numero habitacion: " << row[1] <<endl;
-                    cout << "ID Cliente: " << row[2] << endl;
-                    cout << "Fecha: " << row[3] << endl;
-                    cout << "Estado registro: " << row[4] << endl;
-                    cout << "------------------------------------" << row[0] << endl;
+                    cout << "Cliente: " << row[2] << " " << row[3] << endl;
+                    cout << "Fecha: " << row[4] << endl;
+                    cout << "Estado registro: " << row[5] << endl;
+                    cout << "------------------------------------" << endl;
                 }
                 mysql_free_result(resultado);
             }
@@ -136,26 +135,24 @@ void Conexion::buscarReservacion(string id){
         conn = mysql_real_connect(conn,  ip, usr, pass, db, 3306,
                                   nullptr, 0);
         if (conn) {
-            string sql = "SELECT * FROM `reservacion` WHERE id_reservacion = " + id;
+            string sql = "SELECT reservacion.id_reservacion, reservacion.id_habitacion, cliente.nombre, cliente.apellidos, reservacion.fecha, reservacion.estado "
+                         "FROM reservacion INNER JOIN cliente ON reservacion.id_cliente = cliente.id_cliente WHERE id_reservacion = " + id;
             int qstate = mysql_query(conn , sql.c_str());
-            cout << qstate << endl;
             if(qstate == 0){
-                cout << "aqui" << endl;
                 resultado = mysql_store_result(conn);
                 unsigned long filas = mysql_num_rows(resultado);
-                cout << (unsigned long)filas << endl;
                 if (filas == 0) {
                     cout << "No hay datos" << endl;
                 }
                 for (int i = 0; i < filas; i++){
                     row = mysql_fetch_row(resultado);
-                    cout << "------------------------------------" << row[0] << endl;
+                    cout << "------------------------------------" << endl;
                     cout << "ID reservacion: " << row[0] << endl;
                     cout << "Numero habitacion: " << row[1] <<endl;
-                    cout << "ID Cliente: " << row[2] << endl;
-                    cout << "Fecha: " << row[3] << endl;
-                    cout << "Estado registro: " << row[4] << endl;
-                    cout << "------------------------------------" << row[0] << endl;
+                    cout << "Cliente: " << row[2] << " " << row[3] << endl;
+                    cout << "Fecha: " << row[4] << endl;
+                    cout << "Estado registro: " << row[5] << endl;
+                    cout << "------------------------------------" << endl;
                 }
                 mysql_free_result(resultado);
             }

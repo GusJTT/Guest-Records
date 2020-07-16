@@ -28,6 +28,7 @@ public:
 
     void setTipoHabitacion(const TipoHabitacion &tipoHabitacion);
 
+    void consultaHabitaciones();
 
     ReciboHospedaje *const *getReciboHospedaje() const;
 

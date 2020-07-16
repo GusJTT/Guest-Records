@@ -37,6 +37,8 @@ public:
 
     void setDireccion(const string &direccion);
 
+    void consultaNombres();
+
     Cliente(int identificacion, int telefono, const string &nombre, const string &apellidos, const string &direccion);
 
     Cliente();

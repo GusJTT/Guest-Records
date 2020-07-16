@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "../ejecutable/PS.exe"
   "../ejecutable/PS.exe.manifest"
   "../ejecutable/PS.pdb"
+  "CMakeFiles/PS.dir/Cliente/Cliente.cpp.obj"
   "CMakeFiles/PS.dir/Conexion/Conexion.cpp.obj"
   "CMakeFiles/PS.dir/Conexion/Conexion2.cpp.obj"
   "CMakeFiles/PS.dir/Funciones/funciones.cpp.obj"
