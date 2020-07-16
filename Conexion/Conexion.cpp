@@ -189,3 +189,25 @@ void Conexion::modificarReservacion(string idReservacion, string idHabitacion, s
     }
     mysql_close(conn);
 }
+void Conexion::eliminarReservacion(string idReservacion){
+    MYSQL* conn, mysql;
+
+    int query_state;
+    const char* server = "sql10.freemysqlhosting.net";
+    const char* user = "sql10352889";
+    const char* password = "ug7jc4mGXp";
+    const char* database = "sql10352889";
+    mysql_init(&mysql);
+    conn = mysql_real_connect(&mysql, server, user, password, database, 0, 0, 0);
+    if (conn == NULL){
+        cout << mysql_error(&mysql) << endl << endl;
+    }
+    string sql = "DELETE FROM `reservacion` WHERE `id_reservacion`="+ idReservacion;
+    query_state = mysql_query(conn, sql.c_str());
+    if (query_state != 0){
+        cout << mysql_error(conn) << endl << endl;
+    } else {
+        cout << "Eliminado exitosamente" << endl;
+    }
+    mysql_close(conn);
+}

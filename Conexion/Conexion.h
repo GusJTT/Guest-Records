@@ -23,6 +23,7 @@ class Conexion {
         void buscarReservacion(string id);
         void agregarReservacion(string idReservacion, string idHabitacion, string idCliente, string fecha);
         void modificarReservacion(string idReservacion, string idHabitacion, string idCliente, string fecha);
+        void eliminarReservacion(string idReservacion);
         Hotel getDatosHotel(int id);
         bool inicioSesion(Administrador &admin,string username,string contra);
 };

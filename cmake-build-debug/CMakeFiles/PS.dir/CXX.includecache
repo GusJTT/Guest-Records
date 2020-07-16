@@ -86,6 +86,24 @@ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Admin
 string
 C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/string
 
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/AdquirirServicio/AdquirirServicio.h
+../Servicio/Servicio.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.cpp
+Cliente.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.h
+mysql.h
+-
+iostream
+-
+../Conexion/Conexion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/string
+
 C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.cpp
 Conexion.h
 C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
@@ -102,7 +120,91 @@ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/Hotel.h
 ../Administrador/Administrador.h
 C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
 
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Funciones/funciones.cpp
+iostream
+-
+windows.h
+-
+afxres.h
+-
+conio.h
+-
+../Administrador/Administrador.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
+../Conexion/Conexion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.cpp
+Habitacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h
+mysql.h
+-
+iostream
+-
+../Conexion/Conexion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/string
+../TipoHabitacion/TipoHabitacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h
+../ReciboHospedaje/ReciboHospedaje.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/ReciboHospedaje.h
+
 C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/Hotel.h
 string
 C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/string
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/ReciboHospedaje.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/string
+../Cliente/Cliente.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.h
+../Administrador/Administrador.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
+../AdquirirServicio/AdquirirServicio.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/AdquirirServicio/AdquirirServicio.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.cpp
+Reservacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.h
+iostream
+-
+../Conexion/Conexion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
+../Habitacion/Habitacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/string
+../Habitacion/Habitacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/string
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h
+string
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/string
+
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/main.cpp
+iostream
+-
+stdio.h
+-
+conio.h
+-
+Funciones/funciones.cpp
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Funciones/funciones.cpp
+Conexion/Conexion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
+Administrador/Administrador.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
+Reservacion/Reservacion.h
+C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.h
+clocale
+-
 

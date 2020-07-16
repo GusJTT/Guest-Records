@@ -110,7 +110,11 @@ void Reservacion::menuReservacion() {
                     cout << "   Ingrese fecha (AAAA-MM-DD HH:MM:SS): ";
                     cx.modificarReservacion(aux,aux1,aux2,aux3);
                 }else if(op == 2){
-
+                    cx.eliminarReservacion(aux);
+                }else if(op == 3){
+                    break;
+                }else{
+                    cout << "Opcion incorrecta" << endl;
                 }
                 break;
             case 4:
