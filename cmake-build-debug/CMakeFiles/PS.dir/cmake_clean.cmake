@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PS.dir/Funciones/funciones.cpp.obj"
   "CMakeFiles/PS.dir/Habitacion/Habitacion.cpp.obj"
   "CMakeFiles/PS.dir/Reservacion/Reservacion.cpp.obj"
+  "CMakeFiles/PS.dir/Servicio/Servicio.cpp.obj"
   "CMakeFiles/PS.dir/TipoHabitacion/TipoHabitacion.cpp.obj"
   "CMakeFiles/PS.dir/main.cpp.obj"
   "PS.lib"

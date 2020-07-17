@@ -5,6 +5,7 @@
 #include "Conexion/Conexion.h"
 #include "Administrador/Administrador.h"
 #include "Reservacion/Reservacion.h"
+#include "Servicio/Servicio.h"
 #include <clocale>
 
 using namespace std;
@@ -23,6 +24,8 @@ int main() {
     Hotel hotel=bd_conexion.getDatosHotel(1);
     Administrador administrador;
     Reservacion r;
+    Servicio s;
+    s.menuServicio();
     r.menuReservacion();
     char op;
     do {

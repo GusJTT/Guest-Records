@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Funciones/funciones.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/Funciones/funciones.cpp.obj"
   "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/Habitacion/Habitacion.cpp.obj"
   "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/Reservacion/Reservacion.cpp.obj"
+  "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/Servicio/Servicio.cpp.obj"
   "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/TipoHabitacion/TipoHabitacion.cpp.obj"
   "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/main.cpp" "C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/cmake-build-debug/CMakeFiles/PS.dir/main.cpp.obj"
   )

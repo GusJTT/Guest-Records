@@ -102,6 +102,29 @@ CMakeFiles/PS.dir/Reservacion/Reservacion.cpp.obj
  C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Reservacion/Reservacion.h
  C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.h
  C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h
+CMakeFiles/PS.dir/Servicio/Servicio.cpp.obj
+ C:/Program Files/MySQL/MySQL Server 8.0/include/errmsg.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/field_types.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/my_command.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/my_compress.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/my_list.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/mysql.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/client_plugin.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/plugin_auth_common.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/mysql/udf_registration_types.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_com.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_time.h
+ C:/Program Files/MySQL/MySQL Server 8.0/include/mysql_version.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Administrador/Administrador.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/AdquirirServicio/AdquirirServicio.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Cliente/Cliente.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Conexion/Conexion.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Habitacion/Habitacion.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Hotel/Hotel.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/ReciboHospedaje/ReciboHospedaje.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.cpp
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/Servicio/Servicio.h
+ C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h
 CMakeFiles/PS.dir/TipoHabitacion/TipoHabitacion.cpp.obj
  C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.cpp
  C:/Users/G-t-T/Documents/UNSA/PS/Guest records/Guest-Records/TipoHabitacion/TipoHabitacion.h

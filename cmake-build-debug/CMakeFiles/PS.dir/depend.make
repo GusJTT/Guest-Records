@@ -102,6 +102,29 @@ CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.obj: ..\Reservacion\Reservacion.h
 CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.obj: ..\Servicio\Servicio.h
 CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.obj: ..\TipoHabitacion\TipoHabitacion.h
 
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\errmsg.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\field_types.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\my_command.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\my_compress.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\my_list.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\mysql\client_plugin.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\mysql\plugin_auth_common.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\mysql\udf_registration_types.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\mysql_com.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\mysql_time.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: "C:\Program Files\MySQL\MySQL Server 8.0\include\mysql_version.h"
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\Administrador\Administrador.h
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\AdquirirServicio\AdquirirServicio.h
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\Cliente\Cliente.h
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\Conexion\Conexion.h
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\Habitacion\Habitacion.h
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\Hotel\Hotel.h
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\ReciboHospedaje\ReciboHospedaje.h
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\Servicio\Servicio.cpp
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\Servicio\Servicio.h
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\TipoHabitacion\TipoHabitacion.h
+
 CMakeFiles\PS.dir\TipoHabitacion\TipoHabitacion.cpp.obj: ..\TipoHabitacion\TipoHabitacion.cpp
 CMakeFiles\PS.dir\TipoHabitacion\TipoHabitacion.cpp.obj: ..\TipoHabitacion\TipoHabitacion.h
 

@@ -77,9 +77,28 @@ CMakeFiles\PS.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\PS.dir\main.cpp.s /c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\main.cpp"
 <<
 
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: CMakeFiles\PS.dir\flags.make
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj: ..\Servicio\Servicio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PS.dir/Servicio/Servicio.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PS.dir\Servicio\Servicio.cpp.obj /FdCMakeFiles\PS.dir\ /FS -c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Servicio\Servicio.cpp"
+<<
+
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PS.dir/Servicio/Servicio.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe > CMakeFiles\PS.dir\Servicio\Servicio.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Servicio\Servicio.cpp"
+<<
+
+CMakeFiles\PS.dir\Servicio\Servicio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PS.dir/Servicio/Servicio.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\PS.dir\Servicio\Servicio.cpp.s /c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Servicio\Servicio.cpp"
+<<
+
 CMakeFiles\PS.dir\Cliente\Cliente.cpp.obj: CMakeFiles\PS.dir\flags.make
 CMakeFiles\PS.dir\Cliente\Cliente.cpp.obj: ..\Cliente\Cliente.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PS.dir/Cliente/Cliente.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PS.dir/Cliente/Cliente.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PS.dir\Cliente\Cliente.cpp.obj /FdCMakeFiles\PS.dir\ /FS -c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Cliente\Cliente.cpp"
 <<
@@ -98,7 +117,7 @@ CMakeFiles\PS.dir\Cliente\Cliente.cpp.s: cmake_force
 
 CMakeFiles\PS.dir\TipoHabitacion\TipoHabitacion.cpp.obj: CMakeFiles\PS.dir\flags.make
 CMakeFiles\PS.dir\TipoHabitacion\TipoHabitacion.cpp.obj: ..\TipoHabitacion\TipoHabitacion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PS.dir/TipoHabitacion/TipoHabitacion.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PS.dir/TipoHabitacion/TipoHabitacion.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PS.dir\TipoHabitacion\TipoHabitacion.cpp.obj /FdCMakeFiles\PS.dir\ /FS -c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\TipoHabitacion\TipoHabitacion.cpp"
 <<
@@ -117,7 +136,7 @@ CMakeFiles\PS.dir\TipoHabitacion\TipoHabitacion.cpp.s: cmake_force
 
 CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.obj: CMakeFiles\PS.dir\flags.make
 CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.obj: ..\Reservacion\Reservacion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PS.dir/Reservacion/Reservacion.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PS.dir/Reservacion/Reservacion.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PS.dir\Reservacion\Reservacion.cpp.obj /FdCMakeFiles\PS.dir\ /FS -c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Reservacion\Reservacion.cpp"
 <<
@@ -136,7 +155,7 @@ CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.s: cmake_force
 
 CMakeFiles\PS.dir\Habitacion\Habitacion.cpp.obj: CMakeFiles\PS.dir\flags.make
 CMakeFiles\PS.dir\Habitacion\Habitacion.cpp.obj: ..\Habitacion\Habitacion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PS.dir/Habitacion/Habitacion.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PS.dir/Habitacion/Habitacion.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PS.dir\Habitacion\Habitacion.cpp.obj /FdCMakeFiles\PS.dir\ /FS -c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Habitacion\Habitacion.cpp"
 <<
@@ -155,7 +174,7 @@ CMakeFiles\PS.dir\Habitacion\Habitacion.cpp.s: cmake_force
 
 CMakeFiles\PS.dir\Funciones\funciones.cpp.obj: CMakeFiles\PS.dir\flags.make
 CMakeFiles\PS.dir\Funciones\funciones.cpp.obj: ..\Funciones\funciones.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PS.dir/Funciones/funciones.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PS.dir/Funciones/funciones.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PS.dir\Funciones\funciones.cpp.obj /FdCMakeFiles\PS.dir\ /FS -c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Funciones\funciones.cpp"
 <<
@@ -174,7 +193,7 @@ CMakeFiles\PS.dir\Funciones\funciones.cpp.s: cmake_force
 
 CMakeFiles\PS.dir\Conexion\Conexion2.cpp.obj: CMakeFiles\PS.dir\flags.make
 CMakeFiles\PS.dir\Conexion\Conexion2.cpp.obj: ..\Conexion\Conexion2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PS.dir/Conexion/Conexion2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PS.dir/Conexion/Conexion2.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PS.dir\Conexion\Conexion2.cpp.obj /FdCMakeFiles\PS.dir\ /FS -c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Conexion\Conexion2.cpp"
 <<
@@ -193,7 +212,7 @@ CMakeFiles\PS.dir\Conexion\Conexion2.cpp.s: cmake_force
 
 CMakeFiles\PS.dir\Conexion\Conexion.cpp.obj: CMakeFiles\PS.dir\flags.make
 CMakeFiles\PS.dir\Conexion\Conexion.cpp.obj: ..\Conexion\Conexion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PS.dir/Conexion/Conexion.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PS.dir/Conexion/Conexion.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PS.dir\Conexion\Conexion.cpp.obj /FdCMakeFiles\PS.dir\ /FS -c "C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\Conexion\Conexion.cpp"
 <<
@@ -213,6 +232,7 @@ CMakeFiles\PS.dir\Conexion\Conexion.cpp.s: cmake_force
 # Object files for target PS
 PS_OBJECTS = \
 "CMakeFiles\PS.dir\main.cpp.obj" \
+"CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj" \
 "CMakeFiles\PS.dir\Cliente\Cliente.cpp.obj" \
 "CMakeFiles\PS.dir\TipoHabitacion\TipoHabitacion.cpp.obj" \
 "CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.obj" \
@@ -225,6 +245,7 @@ PS_OBJECTS = \
 PS_EXTERNAL_OBJECTS =
 
 ..\ejecutable\PS.exe: CMakeFiles\PS.dir\main.cpp.obj
+..\ejecutable\PS.exe: CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj
 ..\ejecutable\PS.exe: CMakeFiles\PS.dir\Cliente\Cliente.cpp.obj
 ..\ejecutable\PS.exe: CMakeFiles\PS.dir\TipoHabitacion\TipoHabitacion.cpp.obj
 ..\ejecutable\PS.exe: CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.obj
@@ -234,7 +255,7 @@ PS_EXTERNAL_OBJECTS =
 ..\ejecutable\PS.exe: CMakeFiles\PS.dir\Conexion\Conexion.cpp.obj
 ..\ejecutable\PS.exe: CMakeFiles\PS.dir\build.make
 ..\ejecutable\PS.exe: CMakeFiles\PS.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ..\ejecutable\PS.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ..\ejecutable\PS.exe"
 	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\PS.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\PS.dir\objects1.rsp @<<
  /out:..\ejecutable\PS.exe /implib:PS.lib /pdb:"C:\Users\G-t-T\Documents\UNSA\PS\Guest records\Guest-Records\ejecutable\PS.pdb" /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console   -LIBPATH:C:\PROGRA~1\MySQL\MYSQLS~2.0\lib  -LIBPATH:C:\PROGRA~1\MySQL\CONNEC~2.0\lib64\vs14  mysqlcppconn.lib libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

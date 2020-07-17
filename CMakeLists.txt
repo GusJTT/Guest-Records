@@ -22,6 +22,7 @@ set(P_S main.cpp
 #        ReciboHospedaje/ReciboHospedaje.cpp ReciboHospedaje/ReciboHospedaje.h
 #        AdquirirServicio/AdquirirServicio.cpp AdquirirServicio/AdquirirServicio.h
 #        Habitacion/Habitacion.cpp Habitacion/Habitacion.h
+        Servicio/Servicio.cpp Servicio/Servicio.h
         Cliente/Cliente.cpp Cliente/Cliente.h
         TipoHabitacion/TipoHabitacion.cpp TipoHabitacion/TipoHabitacion.h
         Reservacion/Reservacion.h Reservacion/Reservacion.cpp Habitacion/Habitacion.cpp Habitacion/Habitacion.h

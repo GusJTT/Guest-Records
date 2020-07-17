@@ -286,6 +286,33 @@ Reservacion\Reservacion.cpp.s:
 	$(MAKE) -f CMakeFiles\PS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PS.dir\Reservacion\Reservacion.cpp.s
 .PHONY : Reservacion\Reservacion.cpp.s
 
+Servicio\Servicio.obj: Servicio\Servicio.cpp.obj
+
+.PHONY : Servicio\Servicio.obj
+
+# target to build an object file
+Servicio\Servicio.cpp.obj:
+	$(MAKE) -f CMakeFiles\PS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PS.dir\Servicio\Servicio.cpp.obj
+.PHONY : Servicio\Servicio.cpp.obj
+
+Servicio\Servicio.i: Servicio\Servicio.cpp.i
+
+.PHONY : Servicio\Servicio.i
+
+# target to preprocess a source file
+Servicio\Servicio.cpp.i:
+	$(MAKE) -f CMakeFiles\PS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PS.dir\Servicio\Servicio.cpp.i
+.PHONY : Servicio\Servicio.cpp.i
+
+Servicio\Servicio.s: Servicio\Servicio.cpp.s
+
+.PHONY : Servicio\Servicio.s
+
+# target to generate assembly for a file
+Servicio\Servicio.cpp.s:
+	$(MAKE) -f CMakeFiles\PS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PS.dir\Servicio\Servicio.cpp.s
+.PHONY : Servicio\Servicio.cpp.s
+
 TipoHabitacion\TipoHabitacion.obj: TipoHabitacion\TipoHabitacion.cpp.obj
 
 .PHONY : TipoHabitacion\TipoHabitacion.obj
@@ -367,6 +394,9 @@ help:
 	@echo ... Reservacion/Reservacion.obj
 	@echo ... Reservacion/Reservacion.i
 	@echo ... Reservacion/Reservacion.s
+	@echo ... Servicio/Servicio.obj
+	@echo ... Servicio/Servicio.i
+	@echo ... Servicio/Servicio.s
 	@echo ... TipoHabitacion/TipoHabitacion.obj
 	@echo ... TipoHabitacion/TipoHabitacion.i
 	@echo ... TipoHabitacion/TipoHabitacion.s

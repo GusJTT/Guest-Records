@@ -25,6 +25,13 @@ public:
 
     void setPrecio(double precio);
 
+    void menuServicio();
+    void consultaServicios();
+    void buscarServicios(string id);
+    void agregarServicio(string idServicio, string nombre, string precio);
+    void modificarServicio(string idServicio, string nombre, string precio);
+    void eliminarServicio(string idReservacion);
+
     Servicio();
 
 };

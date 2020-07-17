@@ -108,6 +108,7 @@ void Reservacion::menuReservacion() {
                     cout << "   Ingrese ID del cliente: ";
                     cin >> aux2;
                     cout << "   Ingrese fecha (AAAA-MM-DD HH:MM:SS): ";
+                    getline (cin,aux3);
                     cx.modificarReservacion(aux,aux1,aux2,aux3);
                 }else if(op == 2){
                     cx.eliminarReservacion(aux);
